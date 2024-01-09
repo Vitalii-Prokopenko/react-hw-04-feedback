@@ -21,8 +21,7 @@ const App = () => {
         setBadFeedback(badFeedback + 1);
         break;
       default:
-        console.log('Ops!');
-        break;
+        return;
     }
   };
 
